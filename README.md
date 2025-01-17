@@ -10,7 +10,6 @@ Welcome to the **Modern Blog Application Backend**, a robust and scalable backen
   - [User  Features](#user-features)
   - [Content Management](#content-management)
   - [Social Features](#social-features)
-  - [Monetization Features](#monetization-features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
@@ -71,8 +70,6 @@ This backend project is designed with the following key components to support a 
 ### Monetization Features
 
 - **Premium Content System**: Offer exclusive content to subscribers.
-- **Subscription Management**: Manage user subscriptions effectively.
-- **Payment Integration (Stripe)**: Secure payment processing for subscriptions.
 
 ## Technologies Used
 
