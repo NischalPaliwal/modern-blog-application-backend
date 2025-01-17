@@ -28,6 +28,7 @@ model User {
   subscriptions Subscription[]
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
+  Notification  Notification[]
 }
 
 model Article {
@@ -42,6 +43,7 @@ model Article {
   bookmarkedBy User[]   @relation("UserBookmarks")
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
+  upvotes     Int       @default(0)
 }
 
 model Comment {
@@ -81,4 +83,13 @@ enum Plan {
   FREE
   PREMIUM
   PRO
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+  content   String
+  read      Boolean  @default(false)
+  user      User     @relation(fields: [userId], references: [id])
+  userId    Int
+  createdAt DateTime @default(now())
 }
