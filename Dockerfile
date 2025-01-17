@@ -2,11 +2,11 @@ FROM node:latest
 
 WORKDIR /app
 
-COPY package* .
-COPY ./prisma .
+COPY package*.json ./
+COPY ./prisma ./prisma
 
 RUN npm install
-RUN prisma generate
+RUN npx prisma generate
 
 COPY . .
 
