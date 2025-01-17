@@ -94,7 +94,7 @@ To get started with the project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/NischalPaliwal/modern-blog-application-backend
-   cd backend-project
+   cd modern-blog-application-backend
 
 2. Install dependencies:
    ```bash
@@ -106,7 +106,7 @@ To get started with the project, follow these steps:
 4. Run database migrations:
    ```bash
    npx prisma migrate dev
-   
+
 5. Start the server:
    ```bash
    npm run dev
