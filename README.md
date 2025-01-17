@@ -93,5 +93,16 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/backend-project.git
+   git clone https://github.com/NischalPaliwal/modern-blog-application-backend
    cd backend-project
+2. Install dependencies:
+   ```bash
+   npm install
+3. Set up your environment variables:
+-Create a .env file and configure your database and API keys.
+4. Run database migrations:
+   ```bash
+   npx prisma migrate dev
+5. Start the server:
+   ```bash
+   npm run start
