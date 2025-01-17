@@ -51,17 +51,14 @@ This backend project is designed with the following key components to support a 
 - **Following System**: Users can follow each other to stay updated on new content.
 - **Bookmarks and Reading Lists**: Save articles for later reading.
 - **Custom User Dashboard**: Personalized experience for each user.
-- **Analytics for Writers**: Insights into article performance and engagement.
 
 ### Content Management
 
 - **Article CRUD Operations**: Create, Read, Update, and Delete articles.
 - **Rich Text Editing**: Enhanced editing capabilities for articles.
 - **Image Upload and Management**: Seamless handling of images within articles.
-- **Draft System**: Save drafts before publishing.
 - **Version History**: Track changes made to articles.
 - **Tags and Categories**: Organize content effectively for better discoverability.
-- **SEO Optimization**: Improve visibility on search engines.
 
 ### Social Features
 
@@ -76,7 +73,6 @@ This backend project is designed with the following key components to support a 
 - **Premium Content System**: Offer exclusive content to subscribers.
 - **Subscription Management**: Manage user subscriptions effectively.
 - **Payment Integration (Stripe)**: Secure payment processing for subscriptions.
-- **Writer Earnings Dashboard**: Insights into earnings for content creators.
 
 ## Technologies Used
 
