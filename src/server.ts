@@ -26,7 +26,7 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
-app.get('/', (req: Request, res: Response) => {
+app.get('/health-check', (req: Request, res: Response) => {
   res.json({ message: "Health check endpoint!" });
 });
 
